@@ -33,7 +33,7 @@ var bases = {
 
 var paths = {  
     'dev': {
-        'views':  './resources/**/*.php',
+        'views':  ['./resources/**/*.php','./resources/**/*.html'],
         'less':   './resources/assets/less/',
         'js':     './resources/assets/js/',
         'img':    './resources/assets/img/**/*.*',
